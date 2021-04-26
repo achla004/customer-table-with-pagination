@@ -1,0 +1,105 @@
+.table-root table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 50px auto 20px;
+}
+
+.table-root tr:nth-of-type(even) {
+  background: #eee;
+}
+
+.table-root th {
+  background: #bbeeff;
+  color: #222;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.table-root .star {
+  cursor: pointer;
+}
+
+.table-root td,
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: right;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 960px) {
+  .table-root table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  .table-root thead tr {
+    position: absolute;
+    /* not display: none;, for accessibility */
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .table-root tr {
+    border: 1px solid #ccc;
+  }
+
+  .table-root td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-right: 40%;
+  }
+
+  .table-root td:before {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    content: attr(data-column);
+    color: #000;
+    font-weight: bold;
+  }
+}
+
+.table-root td .hidebutton {
+  display: flex;
+  justify-content: center;
+}
+
+.table-root td .disable {
+  background: #bbeeff;
+}
+
+.table-root td .delete {
+  margin-left: 16px;
+}
+
+.table-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.customer {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.customer .customerdata {
+  width: 500px;
+  height: 300px;
+  background-color: silver;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+}

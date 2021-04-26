@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon/user-interface/eye-hide/outline/eye-hide-outline-16px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/user-interface/eye-hide/outline/eye-hide-outline-16px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="b-eye">
+            <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+            <g id="Group" transform="translate(0.000000, 1.000000)" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13.5,4.732 C14.73,5.9 15.5,7 15.5,7 C15.5,7 12,12 8,12 C7.488,12 6.985,11.918 6.496,11.775" id="Path" stroke="#010709"></path>
+                <path d="M4.275,10.725 C2.048,9.243 0.5,7 0.5,7 C0.5,7 4,2 8,2 C9.326,2 10.605,2.553 11.712,3.288" id="Path" stroke="#010709"></path>
+                <path d="M1,14 L15,0" id="Path" stroke="#1E8CED"></path>
+            </g>
+        </g>
+    </g>
+</svg>

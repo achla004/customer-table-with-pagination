@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon/user-interface/eye-show/outline/eye-show-outline-16px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/user-interface/eye-show/outline/eye-show-outline-16px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="preview">
+            <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+            <g id="Group" transform="translate(0.000000, 2.000000)" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M0.5,6 C0.5,6 3.5,0.5 8,0.5 C12.5,0.5 15.5,6 15.5,6 C15.5,6 12.5,11.5 8,11.5 C3.5,11.5 0.5,6 0.5,6 Z" id="Path" stroke="#010709"></path>
+                <circle id="Oval" stroke="#1E8CED" cx="8" cy="6" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
